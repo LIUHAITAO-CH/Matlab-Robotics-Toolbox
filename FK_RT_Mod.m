@@ -1,30 +1,30 @@
 function T = github_FK_RT_Mod(theta1,theta2,theta3,theta4,theta5,theta6)
-%   °æ±¾£ºMatlab          £º2017a
-%   °æ±¾£ºRobotic_Toolbox £ºV9.10
-%   @°æÈ¨£ºÁõº£ÌÎ
+%   ç‰ˆæœ¬ï¼šMatlab          ï¼š2017a
+%   ç‰ˆæœ¬ï¼šRobotic_Toolbox ï¼šV9.10
+%   @ç‰ˆæƒï¼šåˆ˜æµ·æ¶›
 
-%   github_FK_RT_Modº¯Êý²ÎÊýÃûËµÃ÷
-%   FK £ºForward Kinematics
-%   RT £ºRobotic_Toolbox
-%   Mod£ºmodified
-%   ×ÛÉÏ£º»ùÓÚ»úÆ÷ÈË¹¤¾ßÏäµÄÀûÓÃ¸Ä½øÐÍµÄD-H½¨Ä£·½·¨£¬¼ÆËãÕýÔË¶¯Ñ§£º¹Ø½Ú½Ç------>×ª×ª¾ØÕó
+%   github_FK_RT_Modå‡½æ•°å‚æ•°åè¯´æ˜Ž
+%   FK ï¼šForward Kinematics
+%   RT ï¼šRobotic_Toolbox
+%   Modï¼šmodified
+%   ç»¼ä¸Šï¼šåŸºäºŽæœºå™¨äººå·¥å…·ç®±çš„åˆ©ç”¨æ”¹è¿›åž‹çš„D-Hå»ºæ¨¡æ–¹æ³•ï¼Œè®¡ç®—æ­£è¿åŠ¨å­¦ï¼šå…³èŠ‚è§’------>è½¬è½¬çŸ©é˜µ
 
-%   ²ÎÊý¶¨Òå
-%   a    £ºÁ¬¸Ë³¤¶È
+%   å‚æ•°å®šä¹‰
+%   a    ï¼šè¿žæ†é•¿åº¦
     a(1) = 0;
     a(2) = 0;
     a(3) = 0.420;
     a(4) = 0.375;
     a(5) = 0;
     a(6) = 0;
-%   d    £ºÁ¬¸ËÆ«ÒÆ
+%   d    ï¼šè¿žæ†åç§»
     d(1) =  0;
     d(2) =  0.138;
     d(3) = -0.127;
     d(4) =  0.114;
     d(5) =  0.114;
     d(6) =  0.114;
-%   alpha£ºÁ¬¸ËÅ¤×ª½Ç
+%   alphaï¼šè¿žæ†æ‰­è½¬è§’
     alpha(1) = 0;
     alpha(2) = -pi/2;
     alpha(3) = 0;
